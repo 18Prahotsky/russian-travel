@@ -6,11 +6,17 @@
   font-size: 12px;
   line-height: 22px;
   letter-spacing: 2px;
-  color: #f51c1c;
+  color: #aaaaaa;
+  text-decoration: underline;
+  transition: opacity 0.3s linear;
 }
 
 @media screen and (max-width: 320px) {
   .place__link {
     margin-left: 16px;
   }
+}
+
+.place__link:hover {
+  opacity: 0.8;
 }

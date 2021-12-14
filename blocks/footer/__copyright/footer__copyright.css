@@ -9,7 +9,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 747px) {
   .footer__copyright {
     font-size: 14px;
     line-height: 14px;
