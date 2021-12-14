@@ -1,0 +1,16 @@
+.place__link {
+  margin-top: 12px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  color: #f51c1c;
+}
+
+@media screen and (max-width: 320px) {
+  .place__link {
+    margin-left: 16px;
+  }
+}
