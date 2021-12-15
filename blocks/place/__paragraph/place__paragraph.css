@@ -1,5 +1,5 @@
 .place__paragraph {
-  width: 100%;
+  max-width: 100%;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -11,4 +11,11 @@
 
 .place__paragraph:last-child {
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
 }

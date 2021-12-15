@@ -142,6 +142,7 @@
   src: url("Inter-Black.woff2?v=3.19") format("woff2"),
     url("Inter-Black.woff?v=3.19") format("woff");
 }
+
 @font-face {
   font-family: "Inter";
   font-style: italic;
@@ -149,3 +150,4 @@
   font-display: swap;
   src: url("Inter-BlackItalic.woff2?v=3.19") format("woff2"),
     url("Inter-BlackItalic.woff?v=3.19") format("woff");
+}
