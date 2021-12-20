@@ -7,11 +7,11 @@
   display: flex;
   justify-content: right;
   align-items: center;
+  margin: 0;
 }
 
 @media screen and (max-width: 747px) {
   .footer__copyright {
-    font-size: 14px;
     line-height: 14px;
     justify-content: left;
     margin: 48px auto 0 0;
